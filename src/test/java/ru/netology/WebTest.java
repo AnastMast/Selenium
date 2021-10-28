@@ -18,7 +18,7 @@ public class WebTest {
 
     @BeforeAll
     static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "./Downloads/chromedriver_win32/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "./driver/chromedriver");
     }
 
     @BeforeEach
